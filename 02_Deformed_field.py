@@ -11,7 +11,7 @@ from scipy.spatial import cKDTree
 NN_FILE  = r"/workspaces/NN/NNT/pred_field_C10_0p5_C01_1p0_C20_1p0_invD_1p5.csv"
 FEM_FILE = r"/workspaces/NN/NNT/sim_disp.csv"
 
-OUT_DIR  = r"/workspaces/NN/NNT/fig_fem_vs_nn_deformed_2x3"
+OUT_DIR  = r"/workspaces/NN/NNT/fig_fem_vs_nn_deformed_2x3_1_26_3000_64_6_70_15_15"
 os.makedirs(OUT_DIR, exist_ok=True)
 
 OUT_PNG = os.path.join(OUT_DIR, "deformed_2x3_FEM_vs_NN_C10_0p5_C01_1p0_C20_1p0_invD_1p5.png")

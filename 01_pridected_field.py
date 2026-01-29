@@ -10,7 +10,7 @@ import torch.nn as nn
 WORK_DIR = r"/workspaces/NN"
 
 CKPT_PATH = os.path.join(WORK_DIR, "best_surrogate.pt")
-DATA_CSV  = os.path.join(WORK_DIR, "data.csv")
+DATA_CSV  = os.path.join(WORK_DIR, "data_reduced_3000_per_group.csv")
 
 # Key point: output to data\NNT directory
 OUT_DIR = os.path.join(WORK_DIR, "NNT")
